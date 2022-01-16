@@ -22,7 +22,7 @@ document.querySelector('.js-userinput').addEventListener('keyup', function (a) {
 
     let input = document.querySelector('.js-userinput').value;
 
-    var url = "https://api.giphy.com/v1/gifs/search?api_key=3fQ3pEMEVRLFQEv6Jcz1QVTuAep0AOLk&q="+input+"&limit=25&offset=0&rating=g&lang=en"
+    var url = "https://api.giphy.com/v1/gifs/search?api_key=3fQ3pEMEVRLFQEv6Jcz1QVTuAep0AOLk&q="+input+"&limit=200&offset=0&rating=g&lang=en"
 ;
     // added this if bcuz otherwise it was searching with every pressed key
     if(a.which===13){
